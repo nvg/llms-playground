@@ -45,5 +45,8 @@
 ### 4 - Memory
  - Keeps track of the previous conversations - via storing all messages, some interactions or tokens
  - `langchain.memory.ChatMessageHistory` - `add_ai_message`, `add_user_message`, etc.
- - 
- 
+
+### 5 - Agents
+ - ReACT framework - LLMs to connect to tools and construct a structured approach to complete a task based on reasoning and acting
+ - Multiple types: conversational, P&E, ReAct, etc.
+ - Conversational agents - keep history of the conversation
